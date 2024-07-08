@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 /**
  * Class User
@@ -18,7 +18,7 @@ namespace Picqer\Carriers\SendCloud;
  * @property array $modules
  * @property array $invoices
  *
- * @package Picqer\Carriers\SendCloud
+ * @package webburospring\SendCloud
  */
 class User extends Model
 {

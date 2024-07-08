@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 /**
  * Class Invoice
@@ -13,7 +13,7 @@ namespace Picqer\Carriers\SendCloud;
  * @property boolean $isPayed
  * @property string $items
  *
- * @package Picqer\Carriers\SendCloud
+ * @package webburospring\SendCloud
  */
 class Invoice extends Model
 {

@@ -14,8 +14,8 @@ composer require picqer/sendcloud-php-client
 ## Set-up connection
 Prepare the client for connecting to Sendcloud with your API key and API secret. (Optionally you can send your Partner id as 3rd param.)
 ```php
-$connection = new \Picqer\Carriers\SendCloud\Connection('apikey', 'apisecret');
-$sendcloudClient = new \Picqer\Carriers\SendCloud\SendCloud($connection);
+$connection = new \webburospring\SendCloud\Connection('apikey', 'apisecret');
+$sendcloudClient = new \webburospring\SendCloud\SendCloud($connection);
 ```
 
 ## Get all parcels
@@ -53,7 +53,7 @@ $parcel->save();
 ```php
 $labelUrl = $parcel->getPrimaryLabelUrl();
 
-$documentDownloader = new \Picqer\Carriers\SendCloud\DocumentDownloader($connection);
+$documentDownloader = new \webburospring\SendCloud\DocumentDownloader($connection);
 $labelContents = $documentDownloader->getDocument($labelUrl, 'pdf');
 ```
 

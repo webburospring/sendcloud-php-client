@@ -1,15 +1,15 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud\Query;
+namespace webburospring\SendCloud\Query;
 
-use Picqer\Carriers\SendCloud\Connection;
+use webburospring\SendCloud\Connection;
 
 /**
  * Trait FindAll
  *
  * @method Connection connection()
  *
- * @package Picqer\Carriers\SendCloud\Persistance
+ * @package webburospring\SendCloud\Persistance
  */
 trait FindAll
 {

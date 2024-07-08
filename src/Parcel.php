@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 /**
  * Class Parcel
@@ -30,7 +30,7 @@ namespace Picqer\Carriers\SendCloud;
  * @property string $sender_address
  * @property integer $quantity
  *
- * @package Picqer\Carriers\SendCloud
+ * @package webburospring\SendCloud
  */
 class Parcel extends Model
 {

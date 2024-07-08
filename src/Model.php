@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 abstract class Model
 {

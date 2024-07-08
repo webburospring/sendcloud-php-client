@@ -1,16 +1,16 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud\Query;
+namespace webburospring\SendCloud\Query;
 
-use Picqer\Carriers\SendCloud\Connection;
-use Picqer\Carriers\SendCloud\Model;
+use webburospring\SendCloud\Connection;
+use webburospring\SendCloud\Model;
 
 /**
  * Trait FindOne
  *
  * @method Connection connection()
  *
- * @package Picqer\Carriers\SendCloud\Persistance
+ * @package webburospring\SendCloud\Persistance
  */
 trait FindOne
 {

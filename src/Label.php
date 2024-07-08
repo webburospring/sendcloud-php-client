@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 /**
  * Class Label
@@ -8,7 +8,7 @@ namespace Picqer\Carriers\SendCloud;
  * @property string[] $normal_printer
  * @property string $label_printer
  *
- * @package Picqer\Carriers\SendCloud
+ * @package webburospring\SendCloud
  */
 class Label extends Model
 {

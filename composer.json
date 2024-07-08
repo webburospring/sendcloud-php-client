@@ -14,8 +14,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Stephan Groen",
-            "email": "info@picqer.com"
+            "name": "Webburo Spring",
+            "email": "support@webburo-spring.nl"
         }
     ],
     "require": {
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Picqer\\Carriers\\SendCloud\\": "src/Picqer/Carriers/SendCloud"
+            "webburospring\\SendCloud\\": "src"
         }
     }
 }

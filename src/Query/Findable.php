@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud\Query;
+namespace webburospring\SendCloud\Query;
 
 trait Findable
 {

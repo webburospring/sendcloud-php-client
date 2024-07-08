@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 /**
  * Class ShippingMethod
@@ -11,7 +11,7 @@ namespace Picqer\Carriers\SendCloud;
  * @property array $options
  * @property array $countries
  *
- * @package Picqer\Carriers\SendCloud
+ * @package webburospring\SendCloud
  */
 class ShippingMethod extends Model
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud\Persistance;
+namespace webburospring\SendCloud\Persistance;
 
-use Picqer\Carriers\SendCloud\Connection;
+use webburospring\SendCloud\Connection;
 
 /**
  * Trait Multiple
  *
  * @method Connection connection()
  *
- * @package Picqer\Carriers\SendCloud\Persistance
+ * @package webburospring\SendCloud\Persistance
  */
 trait Multiple
 {

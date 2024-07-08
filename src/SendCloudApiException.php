@@ -1,5 +1,5 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 class SendCloudApiException extends \Exception {}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Picqer\Carriers\SendCloud;
+namespace webburospring\SendCloud;
 
 /**
  * Class Contract
@@ -13,7 +13,7 @@ namespace Picqer\Carriers\SendCloud;
  * @property string country
  * @property boolean is_default
  *
- * @package Picqer\Carriers\SendCloud
+ * @package webburospring\SendCloud
  */
 class Contract extends Model
 {
